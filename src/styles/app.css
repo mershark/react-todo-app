@@ -1,0 +1,212 @@
+/* Global Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.4;
+  color: #000;
+  background: #f6f6f6; /* Added background color */
+  height: 100vh;
+  font-weight: 400;
+}
+
+/* Wrapper Styles */
+.wrapper {
+  width: 100%;
+  padding: 8rem 20px 3rem;
+}
+
+/* Todos Section Styles */
+.todos {
+  max-width: 580px;
+  margin: 0 auto;
+  background: #ffffff; /* Added background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 14px 0px rgba(70, 70, 70, 0.1);
+}
+
+/* Form Container Styles */
+.form-container {
+  display: flex;
+  border-radius: calc(0.1 * 100px);
+  box-shadow: 0px 4px 14px 0px rgba(70, 70, 70, 0.38);
+  justify-content: space-around;
+  background: #ffffff;
+  font-size: 1rem;
+  padding: 15px;
+}
+
+/* Input Text Styles */
+.input-text {
+  width: 85%;
+  padding-right: 5px;
+  padding-left: 10px;
+  border-radius: calc(0.5 * 100px);
+  font-size: 1rem;
+}
+
+.input-text::placeholder {
+  color: #000;
+}
+
+/* Input Submit Styles */
+.input-submit {
+  background: transparent;
+  color: #5b5b5b;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+/* Common Input Styles */
+.input-text,
+.input-submit {
+  height: 45px;
+  outline: none;
+  border: none;
+}
+
+/* Submit Warning Styles */
+.submit-warning {
+  font-size: 13px;
+  color: red;
+  margin-top: 5px;
+  display: block;
+}
+
+/* Link Styles */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Active route Styles */
+.active {
+  color: #8a4baf;
+}
+
+/* About Route Styles */
+.about {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #ffffff; /* Added background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 14px 0px rgba(70, 70, 70, 0.1);
+}
+
+.about_list {
+  list-style: none;
+}
+
+.about_list a {
+  padding: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about_list a:hover {
+  color: #8a4baf;
+}
+
+/* Main Content Styles */
+.main_content {
+  max-width: 650px;
+}
+
+.main_content h2 {
+  margin-bottom: 15px;
+  line-height: 30px;
+  font-size: 26px;
+}
+
+.main_content p {
+  line-height: 25px;
+}
+
+/* Sidebar Navigation Styles */
+.navbar {
+  position: relative;
+}
+
+/* Toggle Button Styles */
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+}
+
+.navbar .toggle {
+  position: fixed;
+  left: 30px;
+  top: 40px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+/* Menu Navigation Styles */
+.menu-nav {
+  list-style: none;
+  position: absolute;
+  background: #fff;
+  left: 0;
+  width: 0;
+  overflow: hidden;
+  max-width: 290px;
+  z-index: 9;
+  font-size: 18px;
+  box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 16%);
+  transform: translateX(-100px);
+  transition: transform ease-in-out 0.2s;
+}
+
+.menu-nav.show-menu {
+  width: 100%;
+  transform: translateX(0px);
+}
+
+.menu-nav li a,
+.menu-nav li span {
+  display: block;
+  padding: 1rem;
+}
+
+/* Log-in Styles */
+.log-in {
+  color: #777;
+  border-top: 1px solid #efecec;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+/* Logout Styles */
+.logout {
+  position: absolute;
+  right: 30px;
+  top: 40px;
+  display: flex;
+  gap: 2rem;
+  font-size: 20px;
+  color: #8a4baf;
+}
+
+/* Media Queries */
+@media screen and (min-width: 480px) {
+  div.wrapper h1 {
+    font-size: 6rem;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: 200px minmax(0, 1fr);
+  }
+}
