@@ -1,5 +1,5 @@
 
-![calculator](https://github.com/mershark/math-magician/assets/113654948/aaf7eaa8-7506-4d02-bd69-0121ef8a2481)
+![mershark react todo app](https://github.com/mershark/react-todo-app/assets/113654948/c19ae9c6-3a42-4a60-b8bc-a05f0710d3a7)
 
 <a name="readme-top"></a>
 
@@ -34,64 +34,72 @@
 
 # 📖 Math Magician <a name="about-project"></a>
 
-> In this project, I created a feature-rich calculator application with an elegant and user-friendly design. The calculator performs basic arithmetic operations and displays the result prominently. I implemented a custom logic for handling calculations and integrated it with a React user interface. Additionally, I incorporated an inspiring quote display that fetches random quotes from an external API: [API Ninjas](https://api-ninjas.com/api/quotes). The layout is responsive, adapting gracefully to different screen sizes. The final result is a polished and functional calculator app with a motivational touch.
+> Introducing a user-friendly React To-Do App that showcases essential React concepts in action. This application empowers you to effortlessly add, update, and remove tasks, offering a hands-on experience with fundamental React principles. Developed as a practical exercise in React, the app demonstrates proficiency in both class components and functional components with hooks. It also showcases the integration of React Router for smooth navigation and the utilization of React Icons to enhance the visual experience. Explore the synergy of React's capabilities in this minimalist yet effective To-Do App.
 
-## Built With
-
-- HTML
-- CSS
-- JAVASCRIPT
-- REACT
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> 
-
 <details>
-  <summary>Cient</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">Javascript</a></li>
-    <li><a href="https://react.dev/">React</a></li>
+    <li><a href="https://html.com/">Html</a></li>
+    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+    <li><a href="https://reactjs.org/">react</a></li>
   </ul>
 </details>
 
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Sngle Page Website**
+- **Static to-do list**
+- **Add to do item**
+- **Remove to do item**
+- **Login to update to do item**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need the following tools:
-- Node.js on your computer
-- Code editor e.g.: VScode
+- **ReactJs**
+- **NPM**
+
+In order to run this project you need:
+ 
+1. To have installed Nodejs in your Code editor. In case you don't have it, go to this <a href="https://nodejs.org/en/">site</a>  and download the setup based on your PC
+<p align="left">(<a href="https://nodejs.org/en/">install NodeJs</a>)</p>
 
 ### Setup
 
-Clone this repository to your desired folder by running the following commands in your terminal:
+Clone this repository to your desired folder using the above command:
 
 ```sh
-  cd your-prefered-folder-name
-  
-  git clone https://github.com/mershark/math-magician.git
+  cd my-folder
+  git clone https://github.com/mershark/react-todo-app.git
 ```
 
 ### Install
 
-- Install this project with:
+Install this project with:
 
 ```sh
-  cd math-magician
-
-  npm install or npm i
+  cd my-project
+  npm install -y
 ```
 
 ### Usage
@@ -99,8 +107,8 @@ Clone this repository to your desired folder by running the following commands i
 To run the project, execute the following command:
 
 ```sh
+  cd my-project
   npm start
-
 ```
 
 ### Run tests
@@ -111,19 +119,16 @@ To run tests, run the following command:
   npm run test
 ```
 
+Open <a href="http://localhost:5173/">http://localhost:5173/</a> to view it in the browser. The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
+
+
 ### Deployment
 
 You can deploy this project by transferring the files in your local repository onto your server
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- LIVE DEMO -->
 
-## 🚀 Live Demo Website <a name="live-demo"></a>
-
-([Click here](https://mershark.github.io/math-magician/))
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -136,7 +141,7 @@ You can deploy this project by transferring the files in your local repository o
 
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] **Scientific Calculations**
+- [ ] **Export of todo list**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,9 +161,8 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Thanks to the Microverse team for the great curriculum.
-- Thanks to the Code Reviewer(s) for the insightful feedback.
-- Thanks to our coding partners, the morning session team and standup team for their coperation.
+I would like to thank Ibaslogic for making this fantastic [tutorial](https://ibaslogic.com/react-tutorial-for-beginners/)
+- GitHub: [@ibaslogic](https://github.com/Ibaslogic)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
