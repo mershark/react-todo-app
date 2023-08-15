@@ -149,7 +149,7 @@ You can deploy this project by transferring the files in your local repository o
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mershark/math-magician/issues).
+Feel free to check the [issues page](https://github.com/mershark/react-todo-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
